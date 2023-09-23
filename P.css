@@ -42,3 +42,31 @@ ul li a:hover{
     color: #f50b8b;
     font-size: 70px;
 }
+/* Pour les écrans étroits (smartphones) */
+@media (max-width: 480px) {
+    header {
+        height: 40px; /* Ajustez la hauteur de l'en-tête pour les smartphones */
+    }
+    
+    /* Ajustez la taille de la police du titre pour les smartphones */
+    .titre h1 {
+        font-size: 30px;
+    }
+
+    /* Ajustez la marge de la barre de navigation pour les smartphones */
+    ul {
+        margin-top: 5px;
+    }
+
+    /* Réorganisez ou masquez certains éléments pour économiser de l'espace sur les petits écrans */
+    .element-a-masquer {
+        display: none; /* Par exemple, masquez un élément non essentiel */
+    }
+
+    /* Ajustez la largeur du contenu pour une meilleure lisibilité */
+    .contenu {
+        max-width: 90%; /* Limitez la largeur du contenu pour éviter le défilement horizontal */
+    }
+
+    /* Personnalisez davantage les styles pour les smartphones selon vos besoins */
+}
